@@ -1,5 +1,18 @@
 # leetcode_challenge_apples_oranges_sql
 
+Table: Sales
+
+
+| Column Name | Type |
+| ----------- | ---- |
+| sale_date   | date |
+| fruit       | enum | 
+| sold_num    | int  | 
+
+
+(sale_date,fruit) is the primary key for this table.
+This table contains the sales of "apples" and "oranges" sold each day.
+
 Write an SQL query to report the difference between number of apples and oranges sold each day.
 
 Return the result table ordered by sale_date in format ('YYYY-MM-DD').
